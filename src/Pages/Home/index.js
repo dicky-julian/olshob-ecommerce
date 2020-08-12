@@ -2,6 +2,7 @@ import React from 'react';
 import { bgHeader, benefits1, benefits2, benefits3, started, nums1, nums2, nums3, pageIllustration } from '../../Assets/Images';
 import { Button } from '../../Components';
 import './style.scss';
+import './responsive.scss';
 
 const Home = () => {
     return (
@@ -48,7 +49,7 @@ const Home = () => {
                 <div className='started__container'>
                     <div className='started__content'>
                         <div>
-                            <img src={nums1} />
+                            <img src={nums1} alt='num 1' />
                             <h5>
                                 Download and Install
                                 <span className='font-thin'>
@@ -57,7 +58,7 @@ const Home = () => {
                             </h5>
                         </div>
                         <div>
-                            <img src={nums2} />
+                            <img src={nums2} alt='num 2' />
                             <h5>
                                 Register as a Member
                                 <span className='font-thin'>
@@ -66,7 +67,7 @@ const Home = () => {
                             </h5>
                         </div>
                         <div>
-                            <img src={nums3} />
+                            <img src={nums3} alt='num 3' />
                             <h5>
                                 Let's go Shoping
                                 <span className='font-thin'>
@@ -76,7 +77,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='started__image'>
-                        <img src={started} />
+                        <img src={started} alt='started' />
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ import { brand } from '../../Assets/Images';
 const Footer = () => {
     return (
         <footer>
-            <img src={brand} />
+            <img src={brand} alt='olshob brand' />
             <div>
                 <h4>Olshob</h4>
                 <h6 className='font-thin'>

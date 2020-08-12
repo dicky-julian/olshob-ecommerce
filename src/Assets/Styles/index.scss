@@ -1,0 +1,31 @@
+@import './colors.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10% 75px;
+    background-color: $fade-color;
+    img {
+        width: 150px;
+        align-self: flex-start;
+    }
+    >div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 300px;
+        h4, h6 {
+            margin-bottom: 15px;
+            text-align: right;
+        }
+    }
+}
+
+.wrapper {
+    padding-top: 80px;
+}

@@ -1,0 +1,17 @@
+@import '../../Assets/Styles/colors.scss';
+
+nav {
+    width: 80%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: $light-color;
+    box-shadow: 0 2px 20px 1px rgba(0,0,0,.11);
+}
+
+.brand__image {
+    height: 35px;
+}

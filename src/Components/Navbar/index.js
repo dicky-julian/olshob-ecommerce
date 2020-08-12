@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav>
             <img src={brand} alt='brand_logo' className='brand__image' />
             <Button
-                title='Install Olshop'
+                title='Install Shoopwi'
                 styles='primary'
                 size='medium'
             />

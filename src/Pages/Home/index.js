@@ -11,7 +11,7 @@ const Home = () => {
                 <div className='header__content'>
                     <h1>Find Your Fashion</h1>
                     <h5 className='font-thin'>
-                        <span className='font__bold font__primary'>Olshop </span>
+                        <span className='font__bold font__primary'>Shoopwi </span>
                         whenever wherever make your style number one
                     </h5>
                     <Button title='Get Started' size='medium' styles='primary' />
@@ -45,7 +45,7 @@ const Home = () => {
             </div>
             <div className='started'>
                 <h2 className='font-center'>Get Started Quickly</h2>
-                <h5 className='font-thin font-center'>just small step to make you have amazing works in zeexly .</h5>
+                <h5 className='font-thin font-center'>just small step to make you have amazing works in shoopwi .</h5>
                 <div className='started__container'>
                     <div className='started__content'>
                         <div>
@@ -53,7 +53,7 @@ const Home = () => {
                             <h5>
                                 Download and Install
                                 <span className='font-thin'>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                    Get the Shoopwi application the easy way, download it on Google Playstore.
                                 </span>
                             </h5>
                         </div>
@@ -62,7 +62,7 @@ const Home = () => {
                             <h5>
                                 Register as a Member
                                 <span className='font-thin'>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                    Be a part of shoopwi and get various benefits with us.
                                 </span>
                             </h5>
                         </div>
@@ -71,7 +71,7 @@ const Home = () => {
                             <h5>
                                 Let's go Shoping
                                 <span className='font-thin'>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                    What to wait for? Let's have fun with Shoopwe ...
                                 </span>
                             </h5>
                         </div>
@@ -85,8 +85,8 @@ const Home = () => {
                 <div>
                     <img src={pageIllustration} alt='page illustration' />
                     <div>
-                        <h3>What’s next? Let’s go Shopping with Olshob</h3>
-                        <Button title='Download Olshob' size='medium' styles='primary' />
+                        <h3>What’s next? Let’s go Shopping with Shoopwi</h3>
+                        <Button title='Download Shoopwi' size='medium' styles='primary' />
                     </div>
                 </div>
             </div>
